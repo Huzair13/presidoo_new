@@ -8,10 +8,7 @@ router.get('/display', (req, res) => {
     const length=movies.length;
 
     if(length!==0){
-        res.status(200).send([
-            {'Number of movies Found :' : length},
-            movies
-        ])
+        res.status(200).send(movies)
     }
     else{
         res.status(404).send("No Movies Found");
