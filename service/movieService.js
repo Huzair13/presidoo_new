@@ -1,5 +1,5 @@
 const fs=require('fs');
-const moviesFilePath ='/data/movies.json';
+const moviesFilePath ='data/movies.json';
 
 //GET ALL MOVIES 
 const getAllMovies=()=>{
